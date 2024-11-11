@@ -3,8 +3,8 @@
 
 sigla = input("Digite a sigla do seu gênero (F ou M):") 
 
-F = "Feminino"
-M = "Masculino"
+# F = "Feminino"
+# M = "Masculino"
 
 if sigla == "F":
     print("seu genero é Feminino")
