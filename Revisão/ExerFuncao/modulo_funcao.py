@@ -9,17 +9,16 @@ def temperatura(Celsius, fracao, num):
     return Fahrenheit
 
 # Terceiro exercício
-
 def par_ou_impar(numero):
-
+    numero = int(input("Digite um numero: "))
     if numero % 2 == 0:
         return "Par"
     else:
         return "Impar"
     
-numero = int(input())
-resultado = par_ou_impar(numero)
-print(f"{numero} é {resultado}")
+# resultado = par_ou_impar(numero)
+# print(f"{numero} é {resultado}")
+
 
 # Quarto exercício
 
@@ -46,14 +45,15 @@ print(f"Palavra invertida: {palavra_invertida}")
 
 
 # Quinto exercicio
-def palindromo(palavra):
+def palindromo(palavra=""):
 
-  palavra_invertida = palavra[::-1]
-  return palavra == palavra_invertida
+  palavra_invertida = palavra
+  if palavra == palavra_invertida(palindromo):
+    return "é um palíndromo!"
+  else:
+    return "não é um palíndromo."
 
-# Exemplo de uso
-palavra = "arara"
-if palindromo(palavra):
-  print(f"'{palavra}' é um palíndromo!")
-else:
-  print(f"'{palavra}' não é um palíndromo.")
+
+# Sexto Exercicio
+
+  
